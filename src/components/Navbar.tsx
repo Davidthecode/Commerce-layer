@@ -23,16 +23,21 @@ function Navbar() {
         <img className='w-9 rounded-lg h-9 ml-auto mr-4' onClick={openNav} src={more} alt="" />
       </section>
 
+      {/* nav sidebar below */}
+      
       <div
         className={`transform-gpu fixed inset-0 z-40 flex-none bg-white transition-transform ease-in-out duration-300 ${nav ? "translate-x-0" : "translate-x-full"
           }`}
       >
+        
         {/* close button */}
+
         <button
           className="absolute top-2 right-2 p-2 text-gray-500 hover:text-gray-700"
         >
           <img className='w-8 h-8 ml-auto mt-4' onClick={closeNav} src={cancel} alt="" />
         </button>
+
         {/* nav content */}
         <section className='flex flex-col h-full mt-[6rem] font-medium'>
           <ul className=" font-medium p-4 space-y-6 mx-8">

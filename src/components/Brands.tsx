@@ -14,16 +14,16 @@ function Brands() {
     const images: string[] = [big, buoni, bupa, chillys, ginori, lampoo, mentra, nonstop, paradox, rapha, sumup, sungod]
     return (
         <div
-            className='flex flex-wrap mt-4'
+            className='flex flex-wrap my-6 md:my-[4rem] rounded-lg md:rounded-xl md:border md:py-1 md:px-1'
         >
             {images.map((image: string, index: number) => {
                 return (
                     <div
                         key={index}
-                        className='bg-[#F8F8F8] w-1/3'
+                        className='bg-[#F8F8F8] w-1/3 md:px-8 border'
                     >
                         <img
-                            className='w-9/12 h-auto p-2 border border-dotted border-[#F8F8F8]'
+                            className='w-11/12 h-auto px-4 py-6 border border-dotte border-[#F8F8F8]'
                             src={image}
                             alt="" 
                         />

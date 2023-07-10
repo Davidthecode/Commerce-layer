@@ -1,3 +1,7 @@
+import { useEffect } from "react";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 interface serviceItem {
   image: string,
   header: string,
@@ -10,11 +14,16 @@ interface serviceProps {
 }
 
 function ServiceList({ serviceData }: serviceProps) {
+  useEffect(() => {
+    AOS.init({ once: true });
+    window.addEventListener('load', AOS.refresh)
+  }, []);
+
   return (
-    <div >
+    <div>
       {serviceData.map((data, id) => {
         return (
-          <section key={id}>
+          <section key={id} data-aos='fade-up' data-aos-once="false">
             {/* broken line */}
             <div className="relative mt-5 mb-5">
               <div className="w-full h-0.5">

@@ -1,12 +1,23 @@
+import { useEffect } from "react";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 import productImage from '../assets/product.avif'
 
 function Recommendation() {
+    useEffect(() => {
+        AOS.init({ once: true });
+        window.addEventListener('load', AOS.refresh)
+      }, []);
+
     return (
         <div >
             <div className='mx-6 mt-20 sm:mx-8 alg:mx-16 alg:flex alg:flex-row-reverse '>
                 <div className='alg:w-2/5 alg:flex alg:justify-end'>
                     <img
-                        className='rounded-lg h-6rem alg:h-1/4 alg:w-4/5 alg:mt-12 alg:h-[19rem]'
+                        data-aos="zoom-in-up"
+                        data-aos-once="false"
+                        className='rounded-lg h-6rem alg:w-4/5 alg:mt-12 alg:h-[19rem]'
                         src={productImage}
                         alt="" />
                 </div>

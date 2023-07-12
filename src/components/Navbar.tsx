@@ -38,48 +38,47 @@ function Navbar() {
 
       </section>
 
-
-
       {/* nav sidebar below */}
-
-      <div
-        className={`transform-gpu fixed inset-0 z-40 flex-none bg-white transition-transform ease-in-out duration-300 ${nav ? "translate-x-0" : "translate-x-full"
-          }`}
-      >
-
-        {/* close button */}
-
-        <button
-          className="absolute top-2 right-2 p-2 text-gray-500 hover:text-gray-700"
+      <div className={`${nav ? 'md:fixed md:inset-0 md:z-40 md:bg-black md:backdrop-filter md:backdrop-blur-sm md:bg-opacity-40 md:w-full md:flex md:items-center md:justify-end xl:hidden md:overscroll-none': '' }`}>
+        <div
+          className={`transform-gpu fixed inset-0 z-40 flex-none bg-white transition-transform ease-in-out duration-300 xl:hidden ${nav ? "translate-x-0 md:w-3/5 md:ml-auto md:mt-4 md:mb-4 md:rounded-lg md:mr-4" : "translate-x-full"
+            }`}
         >
-          <img className='w-8 h-8 ml-auto mt-4' onClick={closeNav} src={cancel} alt="" />
-        </button>
 
-        {/* nav content */}
-        <section className='flex flex-col h-full mt-[6rem] font-medium'>
-          <ul className=" font-medium p-4 space-y-6 mx-8">
-            <li>
-              <a href="#about">Why Commerce Layer</a>
-            </li>
-            <li>
-              <a href="#customers">Customers</a>
-            </li>
-            <li>
-              <a href="#pricing">Pricing</a>
-            </li>
-            <li>
-              <a href="#developers">Developers</a>
-            </li>
-            <li>
-              <a href="#blogs">Blogs</a>
-            </li>
-          </ul>
+          {/* close button */}
 
-          <div className='flex flex-col space-y-4 p-4 mx-8'>
-            <button className='bg-[#666EFF] text-white p-2 rounded-lg'>Sign up for free</button>
-            <button className='bg-blue-50 text-[#666EFF] p-2 rounded-lg'>Sign in</button>
-          </div>
-        </section>
+          <button
+            className="absolute top-2 right-2 p-2 text-gray-500 hover:text-gray-700"
+          >
+            <img className='w-8 h-8 ml-auto mt-4' onClick={closeNav} src={cancel} alt="" />
+          </button>
+
+          {/* nav content */}
+          <section className='flex flex-col h-full mt-[6rem] font-medium'>
+            <ul className=" font-medium p-4 space-y-6 mx-8">
+              <li className='opacity-80 hover:opacity-100'>
+                <a href="#about">Why Commerce Layer</a>
+              </li>
+              <li className='opacity-80 hover:opacity-100'>
+                <a href="#customers">Customers</a>
+              </li>
+              <li className='opacity-80 hover:opacity-100'>
+                <a href="#pricing">Pricing</a>
+              </li>
+              <li className='opacity-80 hover:opacity-100'>
+                <a href="#developers">Developers</a>
+              </li>
+              <li className='opacity-80 hover:opacity-100'>
+                <a href="#blogs">Blogs</a>
+              </li>
+            </ul>
+
+            <div className='flex flex-col space-y-4 p-4 mx-8'>
+              <button className='bg-[#666EFF] text-white p-2 rounded-lg hover:bg-[#5458F0]'>Sign up for free</button>
+              <button className='bg-blue-50 text-[#666EFF] p-2 rounded-lg hover:bg-blue-100'>Sign in</button>
+            </div>
+          </section>
+        </div>
       </div>
     </nav>
   )

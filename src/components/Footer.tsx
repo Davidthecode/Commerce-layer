@@ -32,26 +32,26 @@ function Footer() {
                 <div className='alg:flex alg:justify-between blg:justify-around blg:w-2/4'>
                     <div className='blg:mr-20'>
                         <h2 className='mt-6 font-medium text-lg opacity-70 alg:text-xl'>Platform</h2>
-                        <ul className='opacity-60 text-sm space-y-1 mt-2 alg:text-base alg:space-y-2'>
-                            <li>Why Commerce Layer</li>
-                            <li>Customers</li>
-                            <li>Pricing</li>
-                            <li>Blog</li>
-                            <li>Sign in</li>
-                            <li>Sign up for free</li>
+                        <ul className='text-sm space-y-1 mt-2 alg:text-base alg:space-y-2'>
+                            <li className='opacity-70 hover:opacity-100'>Why Commerce Layer</li>
+                            <li className='opacity-70 hover:opacity-100'>Customers</li>
+                            <li className='opacity-70 hover:opacity-100'>Pricing</li>
+                            <li className='opacity-70 hover:opacity-100'>Blog</li>
+                            <li className='opacity-70 hover:opacity-100'>Sign in</li>
+                            <li className='opacity-70 hover:opacity-100'>Sign up for free</li>
                         </ul>
                     </div>
                     <div className='alg:mr-[13rem] blg:mr-0'>
                         <h2 className='mt-6 font-medium text-lg opacity-70 alg:text-xl'>Resources</h2>
-                        <ul className='opacity-60 text-sm space-y-1 mt-2 alg:text-base alg:space-y-2'>
-                            <li>Core concepts</li>
-                            <li>Data model</li>
-                            <li>Headless commerce</li>
-                            <li>Inventory management</li>
-                            <li>Jamstack whitepaper</li>
-                            <li>Core API docs</li>
-                            <li>Metrics API docs</li>
-                            <li>Changelog</li>
+                        <ul className='text-sm space-y-1 mt-2 alg:text-base alg:space-y-2'>
+                            <li className='opacity-70 hover:opacity-100'>Core concepts</li>
+                            <li className='opacity-70 hover:opacity-100'>Data model</li>
+                            <li className='opacity-70 hover:opacity-100'>Headless commerce</li>
+                            <li className='opacity-70 hover:opacity-100'>Inventory management</li>
+                            <li className='opacity-70 hover:opacity-100'>Jamstack whitepaper</li>
+                            <li className='opacity-70 hover:opacity-100'>Core API docs</li>
+                            <li className='opacity-70 hover:opacity-100'>Metrics API docs</li>
+                            <li className='opacity-70 hover:opacity-100'>Changelog</li>
                         </ul>
                     </div>
                 </div>
@@ -59,22 +59,22 @@ function Footer() {
                 <div className='alg:flex alg:justify-between alg:mt-4 blg:mt-0 blg:flex blg:justify-around blg:mr-0 blg:w-2/4'>
                     <div className=''>
                         <h2 className='mt-6 font-medium text-lg opacity-70 alg:text-xl'>Get in touch</h2>
-                        <ul className='opacity-60 text-sm space-y-1 mt-2 alg:text-base alg:space-y-2'>
-                            <li>Contact sales</li>
-                            <li>Request a demo</li>
-                            <li>Become our partner</li>
-                            <li>Giveback program</li>
-                            <li>Email support</li>
-                            <li>Slack channel</li>
+                        <ul className='text-sm space-y-1 mt-2 alg:text-base alg:space-y-2'>
+                            <li className='opacity-70 hover:opacity-100'>Contact sales</li>
+                            <li className='opacity-70 hover:opacity-100'>Request a demo</li>
+                            <li className='opacity-70 hover:opacity-100'>Become our partner</li>
+                            <li className='opacity-70 hover:opacity-100'>Giveback program</li>
+                            <li className='opacity-70 hover:opacity-100'>Email support</li>
+                            <li className='opacity-70 hover:opacity-100'>Slack channel</li>
                         </ul>
                     </div>
                     <div className='alg:mr-[15rem] blg:mr-0'>
                         <h2 className='mt-6 font-medium text-lg opacity-70 alg:text-xl'>Legal</h2>
-                        <ul className='opacity-60 text-sm space-y-1 mt-2 alg:text-base alg:space-y-2'>
-                            <li>Terms of service</li>
-                            <li>Privacy policy</li>
-                            <li>Cookie policy</li>
-                            <li>Cookie preferences</li>
+                        <ul className='text-sm space-y-1 mt-2 alg:text-base alg:space-y-2'>
+                            <li className='opacity-70 hover:opacity-100'>Terms of service</li>
+                            <li className='opacity-70 hover:opacity-100'>Privacy policy</li>
+                            <li className='opacity-70 hover:opacity-100'>Cookie policy</li>
+                            <li className='opacity-70 hover:opacity-100'>Cookie preferences</li>
                         </ul>
                     </div>
                 </div>

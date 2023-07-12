@@ -94,10 +94,18 @@ function Footer() {
                         alt="" />
                 </div>
                 <div className='flex items-center mt-10 space-x-2 alg:mb-2'>
-                    <FaTwitterSquare size='2rem' />
-                    <FaLinkedin size='2rem' />
-                    <FaGithubSquare size='2rem' />
-                    <AiOutlineSlackSquare size='2.5rem' />
+                    <div className='cursor-pointer transition-transform duration-300 hover:-translate-y-2'>
+                        <FaTwitterSquare size='2rem' />
+                    </div>
+                    <div className='cursor-pointer transition-transform duration-300 hover:-translate-y-2'>
+                        <FaLinkedin size='2rem' />
+                    </div>
+                    <div className='cursor-pointer transition-transform duration-300 hover:-translate-y-2'>
+                        <FaGithubSquare size='2rem' />
+                    </div>
+                    <div className='cursor-pointer transition-transform duration-300 hover:-translate-y-2'>
+                        <AiOutlineSlackSquare size='2.5rem' />
+                    </div>
                 </div>
             </div>
         </footer>

@@ -7,7 +7,7 @@ import { AiOutlineSlackSquare } from 'react-icons/ai'
 
 function Footer() {
     return (
-        <footer className='mt-36 mx-6 pb-24 sm:mx-8 alg:mx-16'>
+        <footer className='mt-36 mx-6 pb-24 sm:mx-8 alg:mx-16 xl:px-8'>
             <div className='flex w-fit bg-[#D2F8E8] items-center p-1 rounded-lg'>
                 <div className="h-3 w-3 rounded-full bg-green-400 mr-1"></div>
                 <p className='bg-[#D2F8E8] text-black text-sm'>All systems operational</p>

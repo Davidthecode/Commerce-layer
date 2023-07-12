@@ -20,7 +20,7 @@ function Brands() {
                 return (
                     <div
                         key={index}
-                        className='bg-[#F8F8F8] w-1/3 md:px-8 border'
+                        className='bg-[#F8F8F8] w-1/3 md:px-8 border blg:w-2/12 blg:px-2'
                     >
                         <img
                             className='w-11/12 h-auto px-4 py-6 border border-dotte border-[#F8F8F8]'

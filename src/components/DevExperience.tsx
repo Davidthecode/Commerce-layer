@@ -1,13 +1,13 @@
 function DevExperience() {
     return (
-      <div className="bg-black mt-8 pb-10">
+      <div className="bg-black mt-8 pb-10 xl:px-8">
         <div className="mx-8 alg:mx-16">
           <h1 className="text-white text-4xl font-medium pt-20 mb-8 opacity-2 alg:text-7xl">
             It all starts with a great developer experience.
           </h1>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 alg:mt-24 alg:pb-12">
-            <div className="bg-[#272828] text-white p-6 rounded-lg alg:px-10">
+            <div className="bg-[#272828] text-white p-6 rounded-lg alg:px-10 xl:h-[30rem]">
               <h1 className="text-xl font-medium alg:text-2xl">Micro frontends</h1>
               <p className="mt-2 opacity-50 alg:text-lg alg:mt-4">
                 The fastest and simplest way to make any website shoppable. Start

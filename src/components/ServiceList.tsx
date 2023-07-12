@@ -23,7 +23,7 @@ function ServiceList({ serviceData }: serviceProps) {
     <div>
       {serviceData.map((data, id) => {
         return (
-          <section key={id} data-aos='fade-up' data-aos-once="false">
+          <section key={id} data-aos='fade-in' data-aos-once="false">
             {/* broken line */}
             <div className="relative mt-5 mb-5">
               <div className="w-full h-0.5">

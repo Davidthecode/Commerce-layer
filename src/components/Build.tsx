@@ -3,7 +3,7 @@ import { scrollData } from "../data/FeatureData"
 
 function Build() {
   return (
-    <div className="bg-white pt-14 mx-8 text-black alg:mx-16">
+    <div className="bg-white pt-14 mx-8 text-black alg:mx-16 xl:px-8">
       <h1 className="text-[32px] font-medium opacity-80 alg:text-7xl">Build fast.</h1>
       <h1 className="text-[32px] font-medium opacity-90 mt-[-10px] alg:text-7xl">Build with flexibility.</h1>
       <div>

@@ -15,6 +15,10 @@ export default {
         blg: {
           min: "992px",
           max: "1536px"
+        },
+        plg: {
+          min: "1200px",
+          max: "1536px"
         }
       }
     },

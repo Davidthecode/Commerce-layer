@@ -35,7 +35,6 @@ function Navbar() {
             <button className='border px-2 py-2 rounded-lg font-medium bg-[#666EFF] text-white hover:bg-[#5458F0]'>Sign up for free</button>
           </div>
         </aside>
-
       </section>
 
       {/* nav sidebar below */}

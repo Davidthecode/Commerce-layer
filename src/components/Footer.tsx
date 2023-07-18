@@ -33,7 +33,7 @@ function Footer() {
                     <div className='blg:mr-20'>
                         <h2 className='mt-6 font-medium text-lg opacity-70 alg:text-xl'>Platform</h2>
                         <ul className='text-sm space-y-1 mt-2 alg:text-base alg:space-y-2'>
-                            <li className='opacity-70 hover:opacity-100'>Why Commerce Layer</li>
+                            <li className='opacity-70 hover:opacity-100'>Why shopConnect</li>
                             <li className='opacity-70 hover:opacity-100'>Customers</li>
                             <li className='opacity-70 hover:opacity-100'>Pricing</li>
                             <li className='opacity-70 hover:opacity-100'>Blog</li>
@@ -80,7 +80,7 @@ function Footer() {
                 </div>
             </div>
 
-            <p className='mt-6 text-sm font-medium opacity-70 alg:mt-16'>© 2023 Commerce Layer inc</p>
+            <p className='mt-6 text-sm font-medium opacity-70 alg:mt-16'>© 2023 ShopConnect inc</p>
             <div className='alg:flex alg:justify-between alg:items-center'>
                 <div className='flex mt-8 items-center'>
                     <p className='mr-4 text-sm opacity-70'>Backed by:</p>

@@ -18,7 +18,7 @@ function Navbar() {
       <section className="flex items-center">
         <figure className="flex items-center">
           <img src={logo} alt="" className="w-16 h-16 alg:w-20 h-20" />
-          <figcaption className="text-black text-xl font-bold font-manrope alg:text-[1.6rem]">commerce layer</figcaption>
+          <figcaption className="text-black text-xl font-bold font-manrope alg:text-[1.6rem]">ShopConnect</figcaption>
         </figure>
         <img className='w-9 rounded-lg h-9 ml-auto mr-4 xl:hidden' onClick={openNav} src={more} alt="" />
 

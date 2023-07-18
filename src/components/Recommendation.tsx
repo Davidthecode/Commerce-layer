@@ -22,7 +22,7 @@ function Recommendation() {
                         alt="" />
                 </div>
                 <div className='alg:w-3/5 xl:w-5 plg:w-4/6'>
-                    <h1 className='text-5xl font-medium mt-8 opacity-80 alg:leading-tight'>"Commerce Layer's flexible, scalable ecommerce platform has enabled us to expand our reach to over 30 countries worldwide and offer localized shopping experiences."</h1>
+                    <h1 className='text-5xl font-medium mt-8 opacity-80 alg:leading-tight'>"ShopConnect's flexible, scalable ecommerce platform has enabled us to expand our reach to over 30 countries worldwide and offer localized shopping experiences."</h1>
                     <p className='mt-6 font-medium'>Tim Bouscarle</p>
                     <p className='pacity-60 text-sm'>Co-Founder & Director at Chilly's Bottles</p>
                 </div>

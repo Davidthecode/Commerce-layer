@@ -15,6 +15,7 @@ interface SliderProps {
 }
 
 function Slider({ scrollData }: SliderProps) {
+    
 
     // const [currentIndex, setCurrentIndex] = useState(0)
 

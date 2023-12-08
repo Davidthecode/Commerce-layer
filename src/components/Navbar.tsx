@@ -1,18 +1,19 @@
-import logo from '../assets/commerce-layer-logo.jpg'
-import { useState } from 'react'
-import more from '../assets/more.png'
-import cancel from '../assets/cancel.png'
+import logo from '../assets/commerce-layer-logo.jpg';
+import { useState } from 'react';
+import more from '../assets/more.png';
+import cancel from '../assets/cancel.png';
 
 function Navbar() {
-  const [nav, setNav] = useState<boolean>(false)
+  const [nav, setNav] = useState<boolean>(false);
 
   const openNav = () => {
-    setNav(true)
-  }
+    setNav(true);
+  };
 
   const closeNav = () => {
-    setNav(false)
-  }
+    setNav(false);
+  };
+
   return (
     <nav className="mx-5 alg:mx-12 mt-4 xl:px-8">
       <section className="flex items-center">
@@ -83,4 +84,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar;

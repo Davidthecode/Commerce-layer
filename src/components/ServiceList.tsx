@@ -1,17 +1,17 @@
 import { useEffect } from "react";
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
-interface serviceItem {
+type serviceItem = {
   image: string,
   header: string,
   text: string,
   mark: string
-}
+};
 
-interface serviceProps {
+type serviceProps = {
   serviceData: serviceItem[]
-}
+};
 
 function ServiceList({ serviceData }: serviceProps) {
   useEffect(() => {
@@ -58,7 +58,7 @@ function ServiceList({ serviceData }: serviceProps) {
             </div>
           </section>)
       })}
-      
+
       {/* broken line */}
       <div className="relative mt-5 mb-5">
         <div className="w-full h-0.5">
@@ -76,4 +76,4 @@ function ServiceList({ serviceData }: serviceProps) {
   )
 }
 
-export default ServiceList
+export default ServiceList;

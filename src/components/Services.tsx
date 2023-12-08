@@ -1,8 +1,7 @@
-import ServiceList from "./ServiceList"
-import { serviceData } from "../data/ServiceData"
+import ServiceList from "./ServiceList";
+import { serviceData } from "../data/ServiceData";
 
 function Services() {
-
   return (
     <div>
       <div className="bg-black xl:px-8">
@@ -13,7 +12,7 @@ function Services() {
         <ServiceList serviceData={serviceData} />
       </div>
     </div>
-  )
+  );
 }
 
-export default Services
+export default Services;

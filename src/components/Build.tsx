@@ -1,5 +1,5 @@
-import Slider from "./Slider"
-import { scrollData } from "../data/FeatureData"
+import Slider from "./Slider";
+import { scrollData } from "../data/FeatureData";
 
 function Build() {
   return (
@@ -15,4 +15,4 @@ function Build() {
   )
 }
 
-export default Build
+export default Build;

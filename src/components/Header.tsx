@@ -1,4 +1,4 @@
-import Brands from "./Brands"
+import Brands from "./Brands";
 
 function Header() {
     return (
@@ -28,7 +28,7 @@ function Header() {
             <h2 className="mt-12 text-xl font-medium alg:text-3xl">Loved by developers, trusted by brands.</h2>
             <Brands />
         </header>
-    )
+    );
 }
 
-export default Header
+export default Header;

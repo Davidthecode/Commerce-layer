@@ -1,19 +1,19 @@
-import l1 from '../assets/l1.svg'
-import l2 from '../assets/l2.svg'
-import l3 from '../assets/l3.svg'
-import l4 from '../assets/l4.svg'
-import l5 from '../assets/l5.svg'
-import l6 from '../assets/l6.svg'
-import l7 from '../assets/l7.svg'
-import l8 from '../assets/l8.svg'
-import check from '../assets/check.png'
+import l1 from '../assets/l1.svg';
+import l2 from '../assets/l2.svg';
+import l3 from '../assets/l3.svg';
+import l4 from '../assets/l4.svg';
+import l5 from '../assets/l5.svg';
+import l6 from '../assets/l6.svg';
+import l7 from '../assets/l7.svg';
+import l8 from '../assets/l8.svg';
+import check from '../assets/check.png';
 
-interface serviceItem {
+type serviceItem = {
     image: string,
     header: string,
     text: string,
     mark: string
-}
+};
 
 export const serviceData: serviceItem[] = [
     {
@@ -64,4 +64,4 @@ export const serviceData: serviceItem[] = [
         text: '24/7 support',
         mark: check
     }
-]
+];

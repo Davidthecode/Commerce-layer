@@ -1,9 +1,9 @@
-import benchmark from '../assets/benchmark.avif'
-import coatue from '../assets/coatue.avif'
-import { FaTwitterSquare } from 'react-icons/fa'
-import { FaLinkedin } from 'react-icons/fa'
-import { FaGithubSquare } from 'react-icons/fa'
-import { AiOutlineSlackSquare } from 'react-icons/ai'
+import benchmark from '../assets/benchmark.avif';
+import coatue from '../assets/coatue.avif';
+import { FaTwitterSquare } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
+import { FaGithubSquare } from 'react-icons/fa';
+import { AiOutlineSlackSquare } from 'react-icons/ai';
 
 function Footer() {
     return (
@@ -109,7 +109,7 @@ function Footer() {
                 </div>
             </div>
         </footer>
-    )
+    );
 }
 
-export default Footer
+export default Footer;

@@ -1,3 +1,7 @@
+import book from "../assets/book.png";
+import menu from "../assets/menu.png";
+import rightArrow from "../assets/right-chevron.png";
+
 function DevExperience() {
   return (
     <div className="bg-black mt-8 pb-10 xl:px-8">
@@ -8,6 +12,9 @@ function DevExperience() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 alg:mt-24 alg:pb-12">
           <div className="bg-[#272828] text-white p-6 rounded-lg alg:px-10 xl:h-[30rem]">
+            <div className="mb-8">
+              <img src={menu} alt="image" className="w-8 h-8" />
+            </div>
             <h1 className="text-xl font-medium alg:text-2xl">Micro frontends</h1>
             <p className="mt-2 opacity-50 alg:text-lg alg:mt-4">
               The fastest and simplest way to make any website shoppable. Start
@@ -20,6 +27,9 @@ function DevExperience() {
           </div>
 
           <div className="bg-[#272828] text-white p-6 rounded-lg">
+            <div className="mb-8">
+              <img src={book} alt="image" className="w-8 h-8" />
+            </div>
             <h2 className="text-xl font-medium alg:text-2xl">API reference</h2>
             <p className="mt-2 opacity-50 alg:text-lg alg:mt-4">
               Explore our developer documentation and learn how to build any
@@ -32,6 +42,9 @@ function DevExperience() {
           </div>
 
           <div className="bg-[#272828] text-white p-6 rounded-lg">
+            <div className="mb-4">
+              <img src={rightArrow} alt="image" className="w-12 h-12" />
+            </div>
             <h2 className="text-xl font-medium alg:text-2xl">CLI</h2>
             <p className="mt-2 opacity-50 alg:text-lg alg:mt-4">
               Use our super-handy Command Line Interface to build a complete

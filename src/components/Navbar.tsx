@@ -25,7 +25,7 @@ function Navbar() {
 
         <aside className='hidden xl:flex xl:ml-auto cursor-pointer'>
           <ul className='flex space-x-8 items-center font-medium text-base'>
-            <li className='hover:text-[#666EFF]'>Why Commerce Layer</li>
+            <li className='hover:text-[#666EFF]'>Why ShopConnect</li>
             <li className='hover:text-[#666EFF]'>Customers</li>
             <li className='hover:text-[#666EFF]'>Pricing</li>
             <li className='hover:text-[#666EFF]'>Developers</li>

@@ -28,7 +28,7 @@ function Recommendation() {
             </div>
 
             <div className='bg-[#666EFF] opacity-90 px-6 py-16 mt-20 sm:px-8 alg:mx-16 alg:rounded-lg blg:flex blg:flex-row blg:justify-between blg:items-center blg:py-20'>
-                <div className='text-white brightness-150 text-xl font-medium alg:text-3xl alg:w-3/4 alg:text-4xl alg:pl-4 blg:w-2/5'>Ready to get started?</div>
+                <div className='text-white brightness-150 text-xl font-medium alg:w-3/4 alg:text-4xl alg:pl-4 blg:w-2/5'>Ready to get started?</div>
                 <div className='flex flex-col mt-8 blg:flex blg:items-center blg:flex-row-reverse blg:w-3/5'>
                     <button className='bg-black hover:bg-[#111827] text-white py-2 rounded-lg alg:text-lg alg:mb-2 blg:w-[14rem] blg:my-auto blg:ml-6'>Start building for free</button>
 

@@ -8,6 +8,10 @@ export default {
           min: "600px",
           max: "639px"
         },
+        customsm: {
+          min: "639px",
+          max: "800px"
+        },
         alg: {
           min: "800px",
           max: "1536px"
